@@ -1,0 +1,375 @@
+/*
+	[ Beige Color Stylesheet ]
+
+	Theme Name: Ricochet
+	Version: 1.2.0
+	Author: Mkscoder
+	Author URI: http://www.mkscoder.com
+	Description: Multi-Purpose Theme by Mkscoder
+*/
+
+.icon-spin {
+    color: #0E315E;
+}
+
+.morphsearch {
+    background: #0E315E;
+}
+
+.nav-menu a:hover {
+    color: #0E315E;
+}
+
+.nav-menu a.active {
+    color: #0E315E;
+}
+
+.main-nav>li.active>a {
+    color: #0E315E;
+}
+
+.main-nav>li.active .dropdown-menu li.active a {
+    color: #0E315E;
+    background: #EEE;
+}
+
+.main-nav .dropdown-toggle .dropdown-menu li a:hover {
+    color: #0E315E;
+}
+
+.about-menu-icon:hover ul li a {
+    color: #0E315E;
+}
+
+.about-menu-icon:hover img {
+    background-color: #0E315E;
+}
+
+#small-dialog-1 span {
+    color: #0E315E;
+}
+
+.popup-back span {
+    color: #0E315E;
+}
+
+.about-two-link a {
+    background-color: #0E315E;
+}
+
+.corporate-nav-cart ul li:last-child {
+    background-color: #0E315E;
+}
+
+.middle-left-cp ul li a:hover,
+.middle-right-cp ul li a:hover {
+    color: #0E315E;
+}
+
+.cp-caption-desc a {
+    color: #0E315E;
+}
+
+.portfolio-slide .slick-prev:hover,
+.portfolio-slide .slick-prev:active,
+.portfolio-slide .slick-prev:focus {
+    color: #0E315E;
+    border: 2px solid #0E315E!important;
+}
+
+.portfolio-slide .slick-next:hover,
+.portfolio-slide .slick-next:active,
+.portfolio-slide .slick-next:focus {
+    color: #0E315E;
+    border: 2px solid #0E315E!Important;
+}
+
+.choose-image span {
+    background: #0E315E;
+}
+
+.testimonial-comments:hover .testimonial-comment-date {
+    color: #0E315E;
+}
+
+.testimonial-comments:hover .blockquote {
+    background-color: #0E315E;
+}
+
+.subscribe-left-content a {
+    color: #0E315E;
+}
+
+.subscribe-slide .slick-prev:hover,
+.subscribe-slide .slick-prev:active,
+.subscribe-slide .slick-prev:focus {
+    color: #0E315E;
+    border: 2px solid #0E315E;
+}
+
+.subscribe-slide .slick-next:hover,
+.subscribe-slide .slick-next:active,
+.subscribe-slide .slick-next:focus {
+    color: #0E315E;
+    border: 2px solid #0E315E;
+}
+
+.subscribe-mail span i {
+    color: #0E315E;
+}
+
+.subscribe-mail-btn {
+    background-color: #0E315E;
+    border: 1px solid #0E315E;
+}
+
+.subscribe-mail-btn:hover,
+.subscribe-mail-btn:focus,
+.subscribe-mail-btn:active {
+    background-color: #0E315E;
+    border: 1px solid #0E315E;
+}
+
+.partner-logo .slick-prev:hover,
+.partner-logo .slick-prev:active,
+.partner-logo .slick-prev:focus {
+    border: 2px solid #0E315E;
+    color: #0E315E;
+}
+
+.partner-logo .slick-next:hover,
+.partner-logo .slick-next:active,
+.partner-logo .slick-next:focus {
+    border: 2px solid #0E315E;
+    color: #0E315E;
+}
+
+.cbp-l-filters-work .cbp-filter-item.cbp-filter-item-active {
+    color: #0E315E!important;
+}
+
+.cbp-l-filters-work .cbp-filter-item:hover {
+    color: #0E315E!important;
+}
+
+.cbp-l-grid-work-title:hover {
+    color: #0E315E!important;
+}
+
+.cbp-l-grid-work-title:hover.cbp-l-grid-work-title span {
+    border: 2px solid #0E315E;
+}
+
+.header-main-content p {
+    color: #0E315E;
+}
+
+.blog-item-detail h2 a:hover {
+    color: #0E315E;
+}
+
+.blog-read-more {
+    color: #0E315E;
+}
+
+.blog-read-more:hover {
+    color: #0E315E;
+}
+
+.right-mail-search .input-group-addon:hover {
+    background-color: #0E315E;
+}
+
+.blog-category ul li:hover span {
+    color: #0E315E!important;
+}
+
+.blog-tags ul li:hover {
+    background-color: #0E315E;
+}
+
+.blog-pagination .btn-group .btn:hover {
+    background-color: #0E315E;
+}
+
+.similar-post ul li a:hover {
+    color: #0E315E;
+}
+
+.author-date {
+    color: #0E315E;
+}
+
+.form-control:focus {
+    border-color: #0E315E;
+}
+
+.contact-submit-btn {
+    background-color: #0E315E;
+    border: 1px solid #0E315E;
+}
+
+.post-right-link {
+    color: #0E315E;
+}
+
+.post-right-link:hover {
+    color: #0E315E;
+}
+
+.post-pagination .btn-group .btn:hover {
+    background-color: #0E315E;
+}
+
+.contact-us-info p span {
+    color: #0E315E;
+}
+
+.contact-submit-btn-1 {
+    background-color: #0E315E;
+    border: 1px solid #0E315E;
+}
+
+.team-right-content a {
+    color: #0E315E;
+}
+
+.member-content p {
+    color: #0E315E;
+}
+
+.tab-horizontal .nav-tabs li.active a,
+.tab-horizontal .nav-tabs li a:focus,
+.tab-horizontal .nav-tabs li a:hover {
+    color: #0E315E;
+    border: 2px solid #0E315E;
+}
+
+.shop-home-left a {
+    color: #0E315E;
+}
+
+.shop-home-link a:hover {
+    background-color: #0E315E;
+}
+
+.shop-tagline {
+    background-color: #0E315E;
+}
+
+.left-cart-content span {
+    color: #0E315E;
+}
+
+.left-cart-total span {
+    color: #0E315E;
+}
+
+.left-cart-link ul li a:hover {
+    background-color: #0E315E;
+}
+
+.onsale-cart-content h6 a:hover {
+    color: #0E315E;
+}
+
+.onsale-cart-content span {
+    color: #0E315E;
+}
+
+.irs-diapason {
+    background: #0E315E;
+}
+
+.shop-pagination .btn-group .btn.active {
+    background-color: #0E315E;
+}
+
+.shop-pagination .btn-group .btn:hover {
+    background-color: #0E315E;
+}
+
+.caption h4 {
+    color: #0E315E;
+}
+
+.caption p {
+    color: #0E315E;
+}
+
+.thumbnail:hover .caption p a {
+    background-color: #0E315E;
+    border: 1px solid #0E315E;
+}
+
+.item-sale {
+    background-color: #0E315E;
+}
+
+.cart-item-quantity button:hover {
+    border: 1px solid #0E315E;
+    background: #0E315E;
+}
+
+.rating-price span {
+    color: #0E315E;
+}
+
+.cart-button a:hover {
+    background-color: #0E315E;
+}
+
+.contact-submit-btn-2 {
+    background-color: #0E315E;
+    border: 1px solid #0E315E;
+}
+
+.contact-us-info-1 p span {
+    color: #0E315E;
+}
+
+.shop-service .slick-prev:hover,
+.shop-service .slick-prev:active,
+.shop-service .slick-prev:focus {
+    border: 2px solid #0E315E!important;
+    color: #0E315E;
+}
+
+.shop-service .slick-next:hover,
+.shop-service .slick-next:active,
+.shop-service .slick-next:focus {
+    border: 2px solid #0E315E!Important;
+    color: #0E315E;
+}
+
+.shop-newsletter .input-group-addon {
+    background-color: #0E315E;
+}
+
+.tab-vertical .nav-tabs li.active a,
+.tab-vertical .nav-tabs li a:focus,
+.tab-vertical .nav-tabs li a:hover {
+    color: #0E315E;
+    border: 2px solid #0E315E;
+}
+
+.member-detail-content a {
+    color: #0E315E;
+}
+
+.corporate-service-content:hover .corporate-circle {
+    border: 1px solid #0E315E;
+    background-color: #0E315E;
+}
+
+.corporate-content h3 a:hover {
+    color: #0E315E;
+}
+
+.portfolio-page2 .cbp-l-filters-work .cbp-filter-item.cbp-filter-item-active {
+    color: #0E315E !important;
+}
+
+.corporate-blog-pagination .btn-group .btn.active {
+    background-color: #0E315E;
+}

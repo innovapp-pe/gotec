@@ -1,0 +1,244 @@
+@charset "utf-8";
+
+/*
+	[ Media Stylesheet ]
+	<?xml version="1.0" encoding="UTF-8"?>
+
+	Theme Name: Ricochet
+	Version: 1.2.0
+	Author: Mkscoder
+	Author URI: http://www.mkscoder.com
+	Description:Multi-Purpose Theme by Mkscoder
+
+*/
+@media only screen and (max-width:1260px){
+	.subscribe-left-content{
+		margin-top:38px;
+	}
+}
+@media only screen and (max-width:1200px){
+	#cp-blog .col-sm-9{
+		width:100%;
+		clear:both;
+	}
+	#cp-blog .col-sm-3{
+		width:50%;
+		clear:both;
+	}
+}
+@media only screen and (max-width:1100px){
+	.subscribe-left-content{
+		margin-top:38px;
+	}
+	.subscribe-left-content h6{
+		margin-bottom:8px;
+	}
+}
+@media only screen and (max-width:1000px){
+	#cp-subscribe .col-sm-6{
+		width:100%;
+	}
+}
+@media only screen and (max-width:992px){
+
+	.hidden-xs{
+		display:none!important;
+	}
+	#testimonial .col-sm-4{
+		width:100%;
+	}
+	#corporate-footer-top .col-sm-4{
+		width:100%;
+		clear:both;
+	}
+	.cp-footer-top-middle{
+		padding-top:40px;
+	}
+	.cp-footer-top-right{
+		padding-top:40px;
+		padding-bottom:20px;
+	}
+	#our-services .col-sm-8{
+		width:100%;
+	}
+	.service-right-image{
+		text-align:center;
+	}
+	.service-detail-button{
+		float:none;
+		text-align:center;
+	}
+	#toggle-detail-1 .col-sm-4{
+		width:100%;
+	}
+	#toggle-detail-1 .col-sm-8{
+		width:100%;
+	}
+	.blog-item{
+		float:none;
+	}
+	.blog-image img{
+		max-width:100%;
+	}
+	.shop-right .col-sm-6{
+		width:100%;
+		text-align:left;
+	}
+	.shop-item-heading-right{
+		text-align:left;
+	}
+	.shop-item-heading-right ul li{
+		margin-left:0px;
+	}
+}
+
+@media only screen and (min-width:767px) and (max-width:992px){
+	.navigation .logo{
+		margin-top:34px;
+	}
+	.navigation .logo img{
+		width:135px;
+	}
+	.cp-footer-top-middle{
+		width:50%;
+	}
+	
+}
+@media only screen and (max-width:767px){
+
+	.nav-menu{
+		display:none;
+	}
+	.mobile-drop{
+		display:block;
+	}
+	.cp-home-back {margin-bottom: 25px;}
+	.cp-service-row {margin-top: 0px;}
+	.cp-services-main {margin-top: 30px;}
+	.cp-services-main img{
+		margin:0 auto;
+	}
+	.media-left{
+		margin-left:23%;
+	}
+	.subscribe-mail .form-group{
+		display:inline-block;
+	}
+	#corporate-footer .col-sm-6{
+		text-align:center;
+	}
+	.corporate-footer-left p{
+		text-align:center;
+		padding:22px 0px 0px 0px;
+	}
+	#cp-blog .col-sm-3{
+		width:70%;
+		clear:both;
+	}
+	.cp-home-slider-content-1 .col-sm-5{
+		width:100%;
+		text-align:center;
+	}
+	.shop-home-right{
+		text-align:center;
+	}
+
+	#cp-portfolio,.service-row,.cp-team-row,.corporate-service-row,
+	#partner-slide {margin-top: 25px;}
+	.cp-footer-top-left img {padding-top: 30px;}
+	.cp-footer-top-left {padding-bottom: 35px;}
+	.cp-footer-top-right {padding-top: 25px;}
+	.cp-footer-social {padding-bottom: 25px;}
+
+	#cp-team{  margin-top: 30px;}
+
+	.tab-vertical .nav-tabs>li {
+	  clear: inherit;
+	}
+	.tab-vertical .nav li a{  padding: 7px 20px;}
+	.member-content-1 {margin-bottom: 20px;}
+	.member-content-1 img {margin: auto;}
+
+}
+
+
+@media only screen and (max-width:640px){
+	#cp-blog .col-sm-3{
+		width:100%;
+		clear:both;
+	}
+
+	.cp-home-slider-content h1{
+		font-size: 25px;  
+		padding-top: 34px;
+		padding-bottom: 20px;
+	}
+	.cp-home-slider-content p {
+	  font-size: 13px;
+	  width: 83%;	  
+	  padding-top: 30px;
+	  line-height: 22px;
+	}
+
+	.subscribe-mail span i{margin-top: 45px;}
+	.subscribe-mail h2{  font-size: 20px;}
+	.subscribe-mail form{margin-bottom: 80px;}
+
+	.hire-content {
+	  margin-top: 40px;
+	  margin-bottom: 50px;
+	}
+	.hire-content h2 {
+		font-size: 14px;
+	  	line-height: 23px;
+	  	padding-bottom: 20px;
+	}
+
+	.partner-logo button { margin-bottom: 40px;}
+	.service-detail-button{  padding-bottom: 40px;}
+}
+
+@media only screen and (max-width:580px){
+	.header-main-content h1{
+		font-size:24px;
+	}
+	.header-main-content p{
+		font-size:13px;
+		padding-top:10px;
+	}
+	
+	.cp-page-title-wrap .header-color-back{  margin: 15px auto;}
+	.header-main-content{
+		padding-top: 10px;
+  		padding-bottom: 10px;
+	}
+
+	#cp-portfolio-single .tp-banner-container{
+		max-height: 350px !important;
+	}
+	#cp-portfolio-single{  margin-top: 25px;}
+	#toggle-detail-1 .custom-50 {margin-top: 0px;}
+}
+
+@media only screen and (max-width:480px){
+	.service-img-bottom{
+		margin-left:0%;
+	}
+	#related-item-1 .col-xs-6{
+		width:100%;
+	}
+	.cart-button a{
+		padding:15px 50px;
+	}
+	.shop-top-dropdown select{
+		margin-top:5px;
+	}
+}
+@media only screen and (min-width:220px) and (max-width:480px){
+	.navigation .logo{
+		margin-top:34px;
+	}
+	.navigation .logo img{
+		width:135px;
+	}
+}
