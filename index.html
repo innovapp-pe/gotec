@@ -5,9 +5,9 @@
     <title>GOTEC</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-    <meta name="description" content="Simétrika es una consultora de arquitectura e ingeniería de servicio integral. Elaboramos proyectos de alta calidad y a la vanguardia con la tecnología, desde pequeños a grandes, de simples a complejos. ">
-    <meta name="author" content="innovapp.pe">
-    <link rel="shortcut icon" href="assets/images/service-logo.png">
+    <meta name="description" content="GOTEC es una empresa comprometida con el medio ambiente, brindamos servicios relacionados con la energía renovable, especialmente con paneles solares, además, desarrollamos proyectos eléctricos de Baja y Media tensión.">
+    <meta name="author" content="gotec.pe">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
     <!-- Web fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800,300,600,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -28,7 +28,13 @@
     <style type="text/css" media="screen">
     @media (min-width: 100px) and (max-width: 480px) {
         #logo-position {
-            margin-top: -25px;
+            margin-top: -10px;
+        }
+        .br {
+            display: none;
+        }
+        #espacio {
+            margin-top: -10px;
         }
     }
 
@@ -36,11 +42,23 @@
         #logo-position {
             margin-top: -15px;
         }
+        .br {
+            display: none;
+        }
+        #espacio {
+            margin-top: -10px;
+        }
     }
 
     @media (min-width:767px) {
         #logo-position {
-            margin-top: -12px;
+            margin-top: 0px;
+        }
+        .br {
+            display: block;
+        }
+        #espacio {
+            margin-top: -80px;
         }
     }
     </style>
@@ -50,15 +68,15 @@
     <!-- PRELOADER START -->
     <div id="preloader">
         <div class="preloader-container">
-            <h4 class="preload-logo triggerAnimation animated" data-animate="bounceIn"><img src="assets/images/logo/vertical.png"></h4>
+            <h4 class="preload-logo triggerAnimation animated" data-animate="bounceIn"><img src="assets/images/logo/logo.png" style="width: 5em;"></h4>
             <img src="assets/images/preloader.GIF" class="preload-gif" alt="cargando...">
         </div>
     </div>
     <!-- PRELOADER END -->
     <!-- Corporate Nav Top -->
     <section id="nav-top-corporate" class="hidden-xs">
-        <div class="container">
-            <div class="row">
+        <div class="container" style="height: 40px;">
+            <div class="row" style="margin-top: -15px;">
                 <div class="col-sm-6">
                     <div class="Corporate-top-left">
                         <p>
@@ -72,7 +90,9 @@
                     <div class="corporate-top-cart">
                         <div class="corporate-nav-cart">
                             <ul>
-                                <li style="background-color: black;"><a href="#"><span><i class="fas fa-clock"></i></span>&nbsp;&nbsp;&nbsp;Lunes - Sábado<span>8:00 AM - 8:00 PM</span></a></li>
+                                <li style="background-color: black;"><a href="#">&nbsp;&nbsp;&nbsp;<span>Síguenos en&nbsp;&nbsp;<a href="https://www.facebook.com/gotec.pe/"><i class="fab fa-facebook-f"></i></a></span>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -86,45 +106,45 @@
         <div class="container inner navigation">
             <!-- Logo Img -->
             <div class="logo">
-                <a class="scroll" href="index.html"><img id="logo-position" src="assets/images/logo/logo.png" style="width: 12em; margin-top: -10px;" alt="Logo"/></a>
-                <p class="hidden-xs" style="color: #0C2B53;"><em>Goicochea Technology S.A.C.</em></p>
+                <a class="scroll" href="index.html"><img id="logo-position" src="assets/images/logo/logo.png" style="width: 14em;" alt="Logo"/>
+                <p class="hidden-xs" style="color: #0C2B53;"><em>Goicochea Technology S.A.C.</em></p></a>
             </div>
             <!-- Nav Menu -->
             <div class="nav-menu">
                 <ul class="nav main-nav right-30">
                     <!-- <li class="dropdown-toggle nav-toggle active">
-								<a class="scroll" href="#">Inicio</a>
-								<ul class="dropdown-menu">
-									<li class="active"><a href="index.html">Home 1</a></li>
-									<li><a href="corporate-home-2.html">Home 2</a></li>
-								</ul>
-							</li>
-							<li class="dropdown-toggle nav-toggle"><a class="scroll" href="#">Nosotros</a>
-								<ul class="dropdown-menu">
-									<li><a href="corporate-about-us.html">Conócenos</a></li>
-									<li><a href="corporate-services.html">Nuestros Servicios</a></li>
-								</ul>
-							</li>
-							<li class="dropdown-toggle nav-toggle"><a class="scroll" href="#">Portafolio</a>
-								<ul class="dropdown-menu">
-									<li><a href="corporate-portfolio.html">portfolio</a></li>
-									<li><a href="corporate-portfolio-two.html">portfolio 2</a></li>
-									<li><a href="corporate-portfolio-single.html">portfolio single</a></li>
-								</ul>
-							</li> -->
+                                <a class="scroll" href="#">Inicio</a>
+                                <ul class="dropdown-menu">
+                                    <li class="active"><a href="index.html">Home 1</a></li>
+                                    <li><a href="corporate-home-2.html">Home 2</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-toggle nav-toggle"><a class="scroll" href="#">Nosotros</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="corporate-about-us.html">Conócenos</a></li>
+                                    <li><a href="corporate-services.html">Nuestros Servicios</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-toggle nav-toggle"><a class="scroll" href="#">Portafolio</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="corporate-portfolio.html">portfolio</a></li>
+                                    <li><a href="corporate-portfolio-two.html">portfolio 2</a></li>
+                                    <li><a href="corporate-portfolio-single.html">portfolio single</a></li>
+                                </ul>
+                            </li> -->
                     <!-- <li class="dropdown-toggle nav-toggle"><a class="scroll" href="#">news</a>
-								<ul class="dropdown-menu">
-									<li><a href="corporate-blog.html">Blog</a></li>
-									<li><a href="corporate-blog-single.html">Blog single</a></li>
-								</ul>
-							</li>
-							<li class="dropdown-toggle nav-toggle"><a class="scroll" href="#">Shop</a>
-								<ul class="dropdown-menu">
-									<li><a href="corporate-shop-home.html">Shop home</a></li>
-									<li><a href="corporate-shop-list.html">shop list</a></li>
-									<li><a href="corporate-shop-detail.html">Shop detail</a></li>
-								</ul>
-							</li> -->
+                                <ul class="dropdown-menu">
+                                    <li><a href="corporate-blog.html">Blog</a></li>
+                                    <li><a href="corporate-blog-single.html">Blog single</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-toggle nav-toggle"><a class="scroll" href="#">Shop</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="corporate-shop-home.html">Shop home</a></li>
+                                    <li><a href="corporate-shop-list.html">shop list</a></li>
+                                    <li><a href="corporate-shop-detail.html">Shop detail</a></li>
+                                </ul>
+                            </li> -->
                     <li><a class="scroll active" href="#">Inicio</a></li>
                     <li><a class="scroll" href="nosotros.html">Nosotros</a></li>
                     <li><a class="scroll" href="servicios.html">Servicios</a></li>
@@ -147,41 +167,42 @@
                 <a data-toggle="dropdown" class="mobile-menu" href="#"><i style="color: #0C86C9;" class="fa fa-bars"></i></a>
                 <ul class="nav dropdown-menu extra fullwidth" role="menu">
                     <!-- <li class="dropdown-toggle mobile-toggle active"><a class="scroll">Home</a>
-									<ul class="dropdown-menu dr-mobile">
-										<li class="active"><a href="index.html">Home 1</a></li>
-										<li><a href="corporate-home-2.html">Home 2</a></li>
-									</ul>
-								</li>
-								<li class="dropdown-toggle mobile-toggle"><a class="scroll">about</a>
-									<ul class="dropdown-menu dr-mobile">
-										<li><a href="corporate-about-us.html">About us</a></li>
-										<li><a href="corporate-services.html">our services</a></li>
-									</ul>
-								</li>
-								<li class="dropdown-toggle mobile-toggle"><a class="scroll">portfolio</a>
-									<ul class="dropdown-menu dr-mobile">
-										<li><a href="corporate-portfolio.html">portfolio</a></li>
-										<li><a href="corporate-portfolio-two.html">portfolio 2</a></li>
-										<li><a href="corporate-portfolio-single.html">portfolio single</a></li>
-									</ul>
-								</li>
-								<li class="dropdown-toggle mobile-toggle"><a class="scroll">news</a>
-									<ul class="dropdown-menu dr-mobile">
-										<li><a href="corporate-blog.html">Blog</a></li>
-										<li><a href="corporate-blog-single.html">Blog single</a></li>
-									</ul>
-								</li>
-								<li class="dropdown-toggle mobile-toggle"><a class="scroll">Shop</a>
-									<ul class="dropdown-menu dr-mobile">
-									<li><a href="corporate-shop-home.html">Shop home</a></li>
-									<li><a href="corporate-shop-list.html">shop list</a></li>
-									<li><a href="corporate-shop-detail.html">Shop detail</a></li>
-									</ul>
-								</li>								
-								<li><a class="scroll" href="corporate-contact.html">contact</a></li> -->
+                                    <ul class="dropdown-menu dr-mobile">
+                                        <li class="active"><a href="index.html">Home 1</a></li>
+                                        <li><a href="corporate-home-2.html">Home 2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-toggle mobile-toggle"><a class="scroll">about</a>
+                                    <ul class="dropdown-menu dr-mobile">
+                                        <li><a href="corporate-about-us.html">About us</a></li>
+                                        <li><a href="corporate-services.html">our services</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-toggle mobile-toggle"><a class="scroll">portfolio</a>
+                                    <ul class="dropdown-menu dr-mobile">
+                                        <li><a href="corporate-portfolio.html">portfolio</a></li>
+                                        <li><a href="corporate-portfolio-two.html">portfolio 2</a></li>
+                                        <li><a href="corporate-portfolio-single.html">portfolio single</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-toggle mobile-toggle"><a class="scroll">news</a>
+                                    <ul class="dropdown-menu dr-mobile">
+                                        <li><a href="corporate-blog.html">Blog</a></li>
+                                        <li><a href="corporate-blog-single.html">Blog single</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-toggle mobile-toggle"><a class="scroll">Shop</a>
+                                    <ul class="dropdown-menu dr-mobile">
+                                    <li><a href="corporate-shop-home.html">Shop home</a></li>
+                                    <li><a href="corporate-shop-list.html">shop list</a></li>
+                                    <li><a href="corporate-shop-detail.html">Shop detail</a></li>
+                                    </ul>
+                                </li>                               
+                                <li><a class="scroll" href="corporate-contact.html">contact</a></li> -->
                     <li><a class="scroll active" href="#">Inicio</a></li>
                     <li><a class="scroll" href="nosotros.html">Nosotros</a></li>
-                    <li><a class="scroll" href="portafolio.html">Portafolio</a></li>
+                    <li><a class="scroll" href="servicios.html">Servicios</a></li>
+                    <li><a class="scroll" href="productos.html">Productos</a></li>
                     <li><a class="scroll" href="contacto.html">contacto</a></li>
                 </ul>
             </div>
@@ -193,13 +214,15 @@
         <div class="container-fluid cp-home-back">
             <div class="container-fluid" style="padding-left: 0px; padding-right: 0px;">
                 <div class="col-sm-12" style="padding-left: 0px; padding-right: 0px;">
-                    <div class="cp-home-slider-content" style="padding-left: 0px; padding-right: 0px;">
+                    <div class="cp-home-slider-content" style="padding-left: 0px; padding-right: 0px; background-position: left;">
+                        <br>
+                        <br>
                         <h1 class="wow fadeInDown">El éxito de tu proyecto es nuestra prioridad</h1>
                         <div class="cp-slider-border-main">
                             <div class="cp-slider-border"></div>
                         </div>
                         <p class="wow fadeInUp">
-                            Simétrika es una consultora de arquitectura e ingeniería de servicio integral. Elaboramos proyectos de alta calidad y a la vanguardia con la tecnología, desde pequeños a grandes, de simples a complejos.
+                            GOTEC es una empresa comprometida con el medio ambiente, brindamos servicios relacionados con la energía renovable, especialmente con paneles solares, además, desarrollamos proyectos eléctricos de Baja y Media tensión.
                         </p>
                         <div class="cp-slider-button">
                             <div class="">
@@ -208,9 +231,9 @@
                         </div>
                     </div>
                     <!-- <div class="cp-slider-img">
-								<img class="img-responsive" src="assets/images/corporate-slider-img-1.png" alt="">
-							</div>
-						</div> -->
+                                <img class="img-responsive" src="assets/images/corporate-slider-img-1.png" alt="">
+                            </div>
+                        </div> -->
                 </div>
             </div>
     </section>
@@ -220,7 +243,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="cp-page-header">
+                    <div id="espacio" class="cp-page-header">
                         <h2>Nuestros Servicios</h2>
                         <p>Vanguardia y calidad de vida a su disposición</p>
                         <img src="assets/images/header-bottom.png" alt="">
@@ -361,10 +384,12 @@
                                     <ul class="cp-image cp-image-hover">
                                         <li>
                                             <figure>
-                                                <img class="img-responsive" src="assets/images/portfolio/portafolio-casaplayachontal.jpg" alt="team-1">
+                                                <img class="img-responsive" src="assets/images/portfolio/portafolio1.jpg" alt="team-1">
                                                 <figcaption>
                                                     <div class="cp-caption-title">
-                                                        <a href="#">Casa de Playa en Chontal</a>
+                                                        <a href="#">Sistema Fotovoltaico Solar 4.8kW
+                                                        (Interconectada a la Red)
+                                                        </a>
                                                     </div>
                                                     <div class="cp-caption-desc">
                                                         <a href="portafolio.html">Ver Proyecto</a>
@@ -381,10 +406,12 @@
                                     <ul class="cp-image cp-image-hover">
                                         <li>
                                             <figure>
-                                                <img class="img-responsive" src="assets/images/portfolio/portafolio-casaplayatrujillo.jpg" alt="team-1">
+                                                <img class="img-responsive" src="assets/images/portfolio/portafolio2.jpg" alt="team-1">
                                                 <figcaption>
                                                     <div class="cp-caption-title">
-                                                        <a href="#">Casa de Playa en Trujillo</a>
+                                                        <a href="#">Sistema Fotovoltaico Solar 2.08kW
+                                                        (Interconectada a la Red)
+                                                        </a>
                                                     </div>
                                                     <div class="cp-caption-desc">
                                                         <a href="portafolio.html">Ver Proyecto</a>
@@ -401,10 +428,12 @@
                                     <ul class="cp-image cp-image-hover">
                                         <li>
                                             <figure>
-                                                <img class="img-responsive" src="assets/images/portfolio/portafolio-club1.jpg" alt="team-1">
+                                                <img class="img-responsive" src="assets/images/portfolio/portafolio3.jpg" alt="team-1">
                                                 <figcaption>
                                                     <div class="cp-caption-title">
-                                                        <a href="#">Habilitación Urbana en Trujillo</a>
+                                                        <a href="#">Sistema Fotovoltaico Solar 2.6kW
+                                                        (Interconectada a la Red)
+                                                        </a>
                                                     </div>
                                                     <div class="cp-caption-desc">
                                                         <a href="portafolio.html">Ver Proyecto</a>
@@ -421,10 +450,12 @@
                                     <ul class="cp-image cp-image-hover">
                                         <li>
                                             <figure>
-                                                <img class="img-responsive" src="assets/images/portfolio/portafolio-club2.jpg" alt="team-1">
+                                                <img class="img-responsive" src="assets/images/portfolio/portafolio4.jpg" alt="team-1">
                                                 <figcaption>
                                                     <div class="cp-caption-title">
-                                                        <a href="#">Habilitación Urbana en Trujillo</a>
+                                                        <a href="#">Sistema Fotovoltaico Solar 3.2kW
+                                                        (Interconectado a Red)
+                                                        </a>
                                                     </div>
                                                     <div class="cp-caption-desc">
                                                         <a href="portafolio.html">Ver Proyecto</a>
@@ -441,70 +472,12 @@
                                     <ul class="cp-image cp-image-hover">
                                         <li>
                                             <figure>
-                                                <img class="img-responsive" src="assets/images/portfolio/portafolio-sandiego.jpg" alt="team-1">
+                                                <img class="img-responsive" src="assets/images/portfolio/portafolio5.jpg" alt="team-1">
                                                 <figcaption>
                                                     <div class="cp-caption-title">
-                                                        <a href="#">Residencial San Diego</a>
-                                                    </div>
-                                                    <div class="cp-caption-desc">
-                                                        <a href="portafolio.html">Ver Proyecto</a>
-                                                    </div>
-                                                </figcaption>
-                                            </figure>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- Sixth Item -->
-                            <div>
-                                <div class="cp-item">
-                                    <ul class="cp-image cp-image-hover">
-                                        <li>
-                                            <figure>
-                                                <img class="img-responsive" src="assets/images/portfolio/portafolio-puno-habitacion1.jpg" alt="team-1">
-                                                <figcaption>
-                                                    <div class="cp-caption-title">
-                                                        <a href="#">Hotel en Puno <br> (Habitación)</a>
-                                                    </div>
-                                                    <div class="cp-caption-desc">
-                                                        <a href="portafolio.html">Ver Proyecto</a>
-                                                    </div>
-                                                </figcaption>
-                                            </figure>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- Seventh Item -->
-                            <div>
-                                <div class="cp-item">
-                                    <ul class="cp-image cp-image-hover">
-                                        <li>
-                                            <figure>
-                                                <img class="img-responsive" src="assets/images/portfolio/portafolio-puno-lobby1.jpg" alt="team-1">
-                                                <figcaption>
-                                                    <div class="cp-caption-title">
-                                                        <a href="#">Hotel en Puno <br> (Lobby)</a>
-                                                    </div>
-                                                    <div class="cp-caption-desc">
-                                                        <a href="portafolio.html">Ver Proyecto</a>
-                                                    </div>
-                                                </figcaption>
-                                            </figure>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- Eighth Item -->
-                            <div>
-                                <div class="cp-item">
-                                    <ul class="cp-image cp-image-hover">
-                                        <li>
-                                            <figure>
-                                                <img class="img-responsive" src="assets/images/portfolio/portafolio-puno-restaurante1.jpg" alt="team-1">
-                                                <figcaption>
-                                                    <div class="cp-caption-title">
-                                                        <a href="#">Hotel en Puno <br> (Restaurante)</a>
+                                                        <a href="#">Sistema Fotovoltaico Solar 2.8 kW
+                                                        (Interconectado a Red)
+                                                        </a>
                                                     </div>
                                                     <div class="cp-caption-desc">
                                                         <a href="portafolio.html">Ver Proyecto</a>
@@ -529,7 +502,7 @@
             <div class="row">
                 <div class="col-sm-8">
                     <div class="testimonial-header-1">
-                        <h3>¿Por qué elegir a Simetrika?</h3>
+                        <h3>¿Por qué elegir a GOTEC?</h3>
                         <p>Te lo explicamos...</p>
                         <img src="assets/images/header-bottom.png" alt="">
                     </div>
@@ -540,8 +513,8 @@
                                 <span><i class="fa fa-check"></i></span>
                             </div>
                             <div class="choose-comment">
-                                <h5 class="wow fadeInRight">Simétrika es una consultora de arquitectura e ingeniería de servicio integral. </h5>
-                                <p class="wow fadeInRight">Elaboramos proyectos de alta calidad y a la vanguardia con la tecnología, desde pequeños a grandes, de simples a complejos. Dentro del presupuesto y por encima de las expectativas. También tenemos en cuenta el contexto en el que se debe realizar un proyecto. Esto significa que nuestras propuestas no se caracterizan por un solo estilo.</p>
+                                <h5 class="wow fadeInRight">GOTEC es una empresa experta en el tema de energía solar  y de ingeniería eléctrica. </h5>
+                                <p class="wow fadeInRight">Elaboramos proyectos de alta calidad y a la vanguardia con la tecnología de punta, abarcamos proyectos de pequeña y gran escala. Contamos con personal altamente calificado en el rubro eléctrico y energético, lo que nos permite brindar servicios integrales de calidad. </p>
                             </div>
                         </div>
                     </div>
@@ -553,8 +526,8 @@
                                 <span><i class="fa fa-check"></i></span>
                             </div>
                             <div class="choose-comment">
-                                <h5 class="wow fadeInRight">Abarcamos tu proyecto desde el concepto hasta el desarrollo técnico y la supervisión.</h5>
-                                <p class="wow fadeInRight">No solo traducimos sus deseos y requisitos, sino también sus sueños en alta calidad. Cada uno de nuestros proyectos los realizamos de manera eficiente y sostenible. Esto nos permite crear soluciones que satisfagan los deseos de nuestros usuarios, pero también brinden sostenibilidad en el contexto relevante. Para nosotros, eso es calidad espacial.</p>
+                                <h5 class="wow fadeInRight">Abarcamos tu proyecto desde el inicio hasta la puesta en marcha.</h5>
+                                <p class="wow fadeInRight">Desarrollamos los proyectos desde la etapa inicial hasta su entrega final, es decir hasta su puesta en marcha, nos comprometemos en cada uno de los procesos como buena práctica para cumplir con los plazos comprometidos con el cliente. Contamos con un alto grado de compromiso, lo que nos permite cumplir todos los objetivos del proyecto.</p>
                             </div>
                         </div>
                     </div>
@@ -567,7 +540,8 @@
                             </div>
                             <div class="choose-comment">
                                 <h5 class="wow fadeInRight">Profesionalismo ante todo</h5>
-                                <p class="wow fadeInRight">Nuestro equipo consiste en una mezcla de entusiastas arquitectos, ingenieros, interioristas y técnicos en construcción, donde nuestra principal motivación es hacer una arquitectura significativa e ingeniería integral. </p>
+                                <p class="wow fadeInRight">Nuestro equipo está constituido por un grupo de ingenieros y técnicos, en el rubro eléctrico y energético. Estamos conscientes de la importancia del aprovechamiento de recursos pensando siempre en la sostenibilidad. Somos profesionales responsables, buenas personas, con valores morales, siempre apuntando hacia bienestar social, ambiental y en general del Perú.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -607,7 +581,7 @@
                             </div>
                             <div class="client-comment">
                                 <h5 class="wow fadeInRight">Ricardo Flores</h5>
-                                <p class="wow fadeInRight">Vengo trabajando con Simetrika por años, muy conforme con su trabajo, los recomiendo a toda costa.</p>
+                                <p class="wow fadeInRight">Vengo trabajando con GOTEC hace 1 año, realizamos varios proyectos y en todos me quedo muy conforme, los recomiendo a toda costa.</p>
                             </div>
                             <a href="portafolio.html" class="testimonial-comment-date wow fadeInLeft"> Ver Proyecto</a>
                         </div>
@@ -622,88 +596,23 @@
     <section id="cp-subscribe">
         <div class="container-fluid">
             <div class="row-fluid cp-subscribe-wrap">
-                <div class="col-sm-6 subscribe-blog-part padding">
-                    <!-- Subscribe Left Content -->
-                    <div class="cp-subscribe-left">
-                        <div class="subscribe-slide">
-                            <!-- Slide Item One -->
-                            <div>
-                                <div class="subscribe-slide-item">
-                                    <div class="col-sm-2 padding">
-                                        <div class="Subscribe-left-date">
-                                            <div class="Date-left-content">
-                                                <h2>Misión</h2>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-10">
-                                        <div class="subscribe-left-content">
-                                            <h1>Ofrecemos a nuestros clientes un diseños original y único</h1>
-                                            <h6><i class="fa fa-tags"></i>Soluciones integrales a tu medida</h6>
-                                            <p>Pensamos que cada proyecto debe ser pensado en función de cada usuario. Ofrecemos soluciones profesionales en arquitectura, interiorismo, ingeniería estructural y sísmica para cada tipo de edificaciones, desde pequeños ambientes y espacios hasta grandes negocios y oficinas.</p>
-                                            <a style="color: white;" href="nosotros.html">Conócenos más</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/ End Slide Item One -->
-                            <!-- Slide Item Two -->
-                            <div>
-                                <div class="subscribe-slide-item">
-                                    <div class="col-sm-2 padding">
-                                        <div class="Subscribe-left-date">
-                                            <div class="Date-left-content">
-                                                <h2>Visión</h2>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-10">
-                                        <div class="subscribe-left-content">
-                                            <h1>Aspiramos a consolidarnos como uno de los estudios de arquitectura de mayor prestigio y calidad del Perú</h1>
-                                            <h6><i class="fa fa-tags"></i>Difícil pero no imposible</h6>
-                                            <p>Ser una empresa reconocida en el medio por hacer accesible la arquitectura de calidad con la tecnología y la responsabilidad social que conlleva. Expandiendo la cultura de la prevención sísmica, protección del medio ambiente y destacando la importancia que tiene la ingeniería y la arquitectura como gestor para el desarrollo y seguridad de nuestra comunidad para el año 2018 </p>
-                                            <a style="color: white;" href="nosotros.html">Conócenos más</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/ End Slide Item Two -->
-                            <!-- Slide Item Three -->
-                            <div>
-                                <div class="subscribe-slide-item">
-                                    <div class="col-sm-2 padding">
-                                        <div class="Subscribe-left-date">
-                                            <div class="Date-left-content">
-                                                <h2>Metas</h2>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-10">
-                                        <div class="subscribe-left-content">
-                                            <h1>Nos hemos planteado objetivos claros:</h1>
-                                            <h6><i class="fa fa-tags"></i>Tu proyecto, nuestro compromiso</h6>
-                                            <p>
-                                                <ul style="color: white;">
-                                                    <li>- Actuar con integridad</li>
-                                                    <li>- Cumplir con nuestros compromisos</li>
-                                                    <li>- Satisfacer a nuestros clientes</li>
-                                                    <li>- Buscar actualización permanente</li>
-                                                    <li>- Tener actitud innovadora</li>
-                                                </ul>
-                                            </p>
-                                            <a style="color: white;" href="nosotros.html">Conócenos más</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/ End Slide Item Three -->
-                        </div>
+                <div class="col-sm-6">
+                    <div class="container" style="padding: 60px; color: white;">
+                        <a class="wow fadeInDown" data-wow-delay=".0s" href="index.html"><img src="assets/images/logo/blanco.png" style="width: 16em; margin-left: -25px;" alt=""></a>
+                        <br>
+                        <br>
+                        <p class="wow fadeInDown" data-wow-delay=".1s"><a href="tel:+51960701271">&nbsp;&nbsp;<span style="color: white; outline: none; text-decoration: none;"><i class="fab fa-whatsapp"></i>&nbsp;&nbsp;+51 960701271</span></a></p>
+                        <p class="wow fadeInDown" data-wow-delay=".2s"><a href="tel:(01)6329395">&nbsp;&nbsp;<span style="color: white; outline: none; text-decoration: none;"><i class="fas fa-fax"></i>&nbsp;&nbsp;(01) 632-9395</span></a></p>
+                        <p class="wow fadeInDown" data-wow-delay=".3s"><a href="mailto:ventas@gotec.pe">&nbsp;&nbsp;<span style="color: white; outline: none; text-decoration: none;"><i class="fas fa-at"></i>&nbsp;&nbsp;ventas@gotec.pe</span></a></p>
+                        <p class="wow fadeInDown" data-wow-delay=".4s"><a href="https://www.facebook.com/gotec.pe/">&nbsp;&nbsp;<span style="color: white; outline: none; text-decoration: none;"><i class="fab fa-facebook-f"></i>&nbsp;&nbsp;@Gotec.pe</span></a></p>
+                        <p class="wow fadeInDown" data-wow-delay=".5s"><a href="mailto:ventas@gotec.pe">&nbsp;&nbsp;<span style="color: white; outline: none; text-decoration: none;"><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Av. Oscar R. Benavides N°679 Oficina 1213 <br class="br">
+                        Urb. Lima Industrial - Lima, Lima, Perú</span></a></p>
+                        <p></p>
                     </div>
-                    <!--/ End Subscribe Left Content -->
                 </div>
                 <div class="col-sm-6 subscribe-form-part padding">
                     <div class="subscribe-mail-back">
-                        <div class="subscribe-mail">
+                        <div class="subscribe-mail" style="margin-top: -50px;">
                             <span><i style="color: white;" class="fas fa-envelope"></i></span>
                             <h2 class="wow fadeInLeft">Contáctanos</h2>
                             <form action="mailer.php" method="POST" class="form-inline wow fadeInRight">
@@ -728,8 +637,8 @@
                                             <textarea class="form-control subscribe-form" rows="5" id="comment" name="comment" required="" placeholder="Mensaje"></textarea>
                                         </div>
                                     </div>
-                                    <br>
-                                    <br>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:2em; padding-bottom:2em;">
                                     <button type="submit" name="submit" class="btn btn-default subscribe-mail-btn" style="display: block; margin: 0 auto;">Enviar</button>
                                 </div>
                             </form>
@@ -741,7 +650,7 @@
     </section>
     <!--/ End CP Subscribe Section -->
     <!-- Partners Section -->
-    <section id="partner-slide">
+    <!-- <section id="partner-slide">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -780,65 +689,8 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--/ End Partners Section -->
-    <!-- Footer Top Start -->
-    <section id="corporate-footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="footer-top-back">
-                        <div class="cp-footer-top-left">
-                            <a class="wow fadeInDown" data-wow-delay=".0s" href="index.html"><img src="assets/images/logo/positivo.png" style="width: 12em;" alt=""></a>
-                            <p class="wow fadeInDown" data-wow-delay=".1s"><strong><a href="tel:+51965326251">+51 965326251</a></strong></p>
-                            <p class="wow fadeInDown" data-wow-delay=".2s"><a href="mailto:contacto@simetrika.pe">contacto@simetrika.pe</a></p>
-                            <p class="wow fadeInDown" data-wow-delay=".3s">Av Cipriano Dulanto 1266, Dpto 402</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="cp-footer-top-middle">
-                        <div class="cp-footer-head">
-                            <h3>Saber más...</h3>
-                        </div>
-                        <div class="middle-left-cp">
-                            <ul>
-                                <li class="wow fadeInRight" data-wow-delay=".0s"><a href="nosotros.html"><i class="fa fa-angle-right"></i>Nosotros</a></li>
-                                <!-- <li class="wow fadeInRight" data-wow-delay=".1s"><a href="#"><i class="fa fa-angle-right"></i>Nuestros Servicios</a></li> -->
-                                <!--<li class="wow fadeInRight" data-wow-delay=".2s"><a href="#"><i class="fa fa-angle-right"></i>Company news</a></li>-->
-                                <li class="wow fadeInRight" data-wow-delay=".1s"><a href="portafolio.html"><i class="fa fa-angle-right"></i>Portafolio</a> </li>
-                                <li class="wow fadeInRight" data-wow-delay=".2s"><a href="contacto.html"><i class="fa fa-angle-right"></i>Contacto</a></li>
-                            </ul>
-                        </div>
-                        <!--<div class="middle-right-cp">
-									<ul>
-										<li class="wow fadeInRight" data-wow-delay=".0s"><a href="#"><i class="fa fa-angle-right"></i>Buyer Support</a></li>
-										<li class="wow fadeInRight" data-wow-delay=".1s"><a href="#"><i class="fa fa-angle-right"></i>Legal Information</a></li>
-										<li class="wow fadeInRight" data-wow-delay=".2s"><a href="#"><i class="fa fa-angle-right"></i>Privacy Policy</a></li>
-										<li class="wow fadeInRight" data-wow-delay=".3s"><a href="#"><i class="fa fa-angle-right"></i>Payment Options</a></li>
-										<li class="wow fadeInRight" data-wow-delay=".4s"><a href="#"><i class="fa fa-angle-right"></i>Partners & Suppliers</a></li>
-									</ul>
-								</div> -->
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="cp-footer-top-right">
-                        <div class="cp-footer-head">
-                            <h3>SOCIAL</h3>
-                        </div>
-                        <div class="cp-footer-social">
-                            <ul>
-                                <li class="wow fadeInDown" data-wow-delay=".0s"><a href="https://www.facebook.com/Simetrika-Arquitectura-e-Ingenier%C3%ADa-416772298792333/"><i class="fab fa-facebook"></i></a></li>
-                                <li class="wow fadeInDown" data-wow-delay=".1s"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li class="wow fadeInDown" data-wow-delay=".2s"><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--/ End Footer Top -->
     <!-- Footer Start -->
     <section id="corporate-footer">
         <div class="container">
@@ -855,29 +707,29 @@
     <!--/ End Footer -->
     <!-- Theme Panel Switcher Start -->
     <!-- <section id="theme-panel" class="panel-close">
-	            <a class="panel-btn"><i class="fa fa-spinner icon-spin"></i></a>
-	            <div class="theme-panel-title">
-	                <h4>Style Switcher</h4>
-	            </div>
-	            <div class="colors-container">
-	                <p class="amount-1" style="line-height:0;">10 Color Skins</p>
-					<a title="beige" class="color-switch beige"></a>
-	                <a title="red" class="color-switch red"></a>
-					<a title="blue-2" class="color-switch blue-2"></a>
-	                <a title="pink" class="color-switch pink"></a>
-	                <a title="blue" class="color-switch blue"></a>
-	                <a title="purple" class="color-switch purple"></a>
-	                <a title="green" class="color-switch green"></a>
-	                <a title="yellow" class="color-switch yellow"></a>
-	                <a title="orange" class="color-switch orange"></a>
-					<a title="midnight" class="color-switch midnight"></a>
-	            </div>
-	            <div class="colors-container">
-	            	<p class="about-colors">
-					There are unlimited posibilities to make your own color style. We have included 10 color css in this template. Thanks for using our themplate.
-					</p>
-				</div>
-	        </section> -->
+                <a class="panel-btn"><i class="fa fa-spinner icon-spin"></i></a>
+                <div class="theme-panel-title">
+                    <h4>Style Switcher</h4>
+                </div>
+                <div class="colors-container">
+                    <p class="amount-1" style="line-height:0;">10 Color Skins</p>
+                    <a title="beige" class="color-switch beige"></a>
+                    <a title="red" class="color-switch red"></a>
+                    <a title="blue-2" class="color-switch blue-2"></a>
+                    <a title="pink" class="color-switch pink"></a>
+                    <a title="blue" class="color-switch blue"></a>
+                    <a title="purple" class="color-switch purple"></a>
+                    <a title="green" class="color-switch green"></a>
+                    <a title="yellow" class="color-switch yellow"></a>
+                    <a title="orange" class="color-switch orange"></a>
+                    <a title="midnight" class="color-switch midnight"></a>
+                </div>
+                <div class="colors-container">
+                    <p class="about-colors">
+                    There are unlimited posibilities to make your own color style. We have included 10 color css in this template. Thanks for using our themplate.
+                    </p>
+                </div>
+            </section> -->
     <!-- Theme Panel Switcher End -->
     <!-- ============ Js Files ============ -->
     <!-- Placed at the end of the document so the pages load faster -->

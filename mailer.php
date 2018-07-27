@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['submit'])) {
-$to = "josmavel@gmail.com, pilarcatunta@gmail.com, merinodavilam@gmail.com";
-$subject = "Contacto desde Simetrika.pe";
+$to = "henry_goicochea@hotmail.com, merinodavilam@gmail.com";
+$subject = "Contacto desde Gotec.pe";
  
 // data the visitor provided
 $name_field = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
